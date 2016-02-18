@@ -1,0 +1,22 @@
+{
+  "name": "heroku-genschaw",
+  "version": "1.0.0",
+  "description": "Playground app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "grunt test"
+  },
+  "author": "Shane Genschaw",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.13.4"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13"
+  }
+}
