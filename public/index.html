@@ -109,6 +109,7 @@ var startCountdown = function(id, time) {
   var countdown_node = document.getElementById(id);
   time || (time = countdown_node.getAttribute('data-datetime'));
   var countdown_element = new Countdown(countdown_node.id, time);
+  countdown_element.updateTime();
   countdown_node.interval = setInterval(function() {
     countdown_element.updateTime();
   }, 1000);
