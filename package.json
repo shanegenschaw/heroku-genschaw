@@ -10,14 +10,14 @@
   "author": "Shane Genschaw",
   "license": "ISC",
   "dependencies": {
-    "express": "4.13.4"
+    "express": "4.15.3"
   },
   "engines": {
-    "node": "0.12.7"
+    "node": "6.11.1"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13"
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0"
   },
   "repository": {
     "type": "git",
